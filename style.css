@@ -71,6 +71,7 @@ a {
   width: max-content;
   height: max-content;
   font-size: 2.5rem;
+  font-family: var(--font-sand);
   /* background-color: var(--color-l-2); */
 }
 .title-2 {
@@ -95,7 +96,7 @@ a {
 
 /* album exist */
 .album {
-    width: max-content;
+    width: 400px;
     height: max-content;
     margin: 15px;
     padding: 20px;
@@ -112,7 +113,7 @@ a {
     -o-border-radius: 25px;
 }
 .album-name {
-    width: max-content;
+    width: 350px;
     text-align: center;
     font-size: 1.5rem;
     margin-top: 20px;
@@ -158,6 +159,10 @@ img {
     font-size: 1.6rem;
     /* background-color: var(--color-l-3); */
 }
+.song {
+  text-align: center;
+  font-size: 1rem;
+}
 .song:hover {
     color: var(--color-d-2);
 }
@@ -170,6 +175,10 @@ img {
     }
     .title-2 {
         font-size: 5rem;
+    }
+
+    .song {
+      font-size: 0.7rem;
     }
 }
 /* responsive mobile phone: iphone 12 pro */

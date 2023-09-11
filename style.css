@@ -79,6 +79,7 @@ a {
   width: max-content;
   height: max-content;
   font-size: 6rem;
+  font-family: var(--font-jet);
   /* background-color: var(--color-l-3); */
 }
 /* judul website */
@@ -162,6 +163,7 @@ img {
 .song {
   text-align: center;
   font-size: 1rem;
+  font-family: var(--font-andika);
 }
 .song:hover {
     color: var(--color-d-2);

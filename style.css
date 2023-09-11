@@ -106,7 +106,6 @@ a {
     justify-content: center;
     align-items: center;
     align-self: flex-start;
-    background-color: var(--color-l-2);
     border-radius: 25px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
@@ -179,7 +178,8 @@ img {
     }
 
     .album {
-      width: 370px;
+      width: 350px;
+      background-color: var(--color-l-2);
     }
     .album-name {
       width: 270px;

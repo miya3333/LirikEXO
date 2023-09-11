@@ -85,85 +85,85 @@ a {
 /* judul website */
 
 .sub-title {
-    width: 83%;
-    padding: 20px;
-    font-size: 3rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--color-l-2);
-    border-radius: 25px;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+  width: 83%;
+  padding: 20px;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-l-2);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
 }
 .judul {
-    text-align: center;
+  text-align: center;
 }
 .audio {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 .lyric {
-    width: 95%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    font-family: var(--font-andika);
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: var(--font-andika);
 }
 .real-text,
 .romanized {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 20px;
-    padding: 15px;
-    background-color: var(--color-l-2);
-    border-radius: 25px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+  padding: 15px;
+  background-color: var(--color-l-2);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
 }
 .up,
 .down {
-    margin: 10px;
+  margin: 10px;
 }
 .up {
-    font-size: 1.5rem;
-    font-style: italic;
-    font-weight: bold;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: bold;
 }
 .down {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 @media screen and (max-width: 600px) {
-    .title-1 {
-        font-size: 1.5rem;
-    }
-    .title-2 {
-        font-size: 4rem;
-    }
-    .sub-title {
-        flex-direction: column;
-    }
-    .judul {
-        font-size: 2rem;
-    }
-    .audio {
-        width: 250px;
-        height: 25px;
-        margin-left: 0;
-    }
-    .up {
-        font-size: 1rem;
-    }
-    .down {
-        font-size: 0.85rem;
-    }
+  .title-1 {
+    font-size: 1.5rem;
+  }
+  .title-2 {
+    font-size: 4rem;
+  }
+  .sub-title {
+    flex-direction: column;
+  }
+  .judul {
+    font-size: 2rem;
+  }
+  .audio {
+    width: 250px;
+    height: 25px;
+    margin-left: 0;
+  }
+  .up {
+    font-size: 1rem;
+  }
+  .down {
+    font-size: 0.85rem;
+  }
 }

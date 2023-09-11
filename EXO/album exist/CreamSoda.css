@@ -103,6 +103,7 @@ a {
   text-align: center;
 }
 .audio {
+  height: 40px;
   margin-left: 20px;
 }
 .lyric {
@@ -140,6 +141,51 @@ a {
 }
 .down {
   font-size: 1.25rem;
+}
+.writer {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  font-family: var(--font-jet);
+  text-align: center;
+}
+
+footer {
+  width: 90%;
+  height: max-content;
+  font-size: 1.25rem;
+  font-family: var(--font-jet);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-l-3);
+  border-radius: 25px 25px 0 0;
+  -webkit-border-radius: 25px 25px 0 0;
+  -moz-border-radius: 25px 25px 0 0;
+  -ms-border-radius: 25px 25px 0 0;
+  -o-border-radius: 25px 25px 0 0;
+}
+.footer-up {
+  width: 100px;
+  height: 50px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background-color: var(--color-l-4);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+.footer-up:hover {
+  background-color: var(--color-l-2);
 }
 
 @media screen and (max-width: 600px) {

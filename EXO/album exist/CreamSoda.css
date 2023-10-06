@@ -23,6 +23,15 @@
   --color-v-2: #bb8082;
   --color-v-3: #6e7582;
   --color-v-4: #046582;
+
+  /* only blue */
+  /* As hex codes */
+  --color-primary-0: #244eae; /* Main Primary color */
+  --color-primary-1: #6786cc;
+  --color-primary-2: #4367b9;
+  --color-primary-3: #0f3793;
+  --color-primary-4: #0a2a73;
+  /* only blue */
 }
 /* my settings */
 
@@ -40,7 +49,7 @@ html {
 body {
   height: fit-content;
   font-family: var(--font-pop);
-  background-color: var(--color-l-1);
+  background-color: var(--color-primary-0);
 }
 
 a {
@@ -92,7 +101,7 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: var(--color-l-2);
+  background-color: var(--color-primary-1);
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
@@ -123,7 +132,7 @@ a {
   text-align: center;
   margin: 20px;
   padding: 15px;
-  background-color: var(--color-l-2);
+  background-color: var(--color-primary-1);
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
@@ -162,7 +171,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--color-l-3);
+  background-color: var(--color-primary-2);
   border-radius: 25px 25px 0 0;
   -webkit-border-radius: 25px 25px 0 0;
   -moz-border-radius: 25px 25px 0 0;
@@ -177,7 +186,7 @@ footer {
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  background-color: var(--color-l-4);
+  background-color: var(--color-primary-3);
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
@@ -185,7 +194,7 @@ footer {
   -o-border-radius: 25px;
 }
 .footer-up:hover {
-  background-color: var(--color-l-2);
+  background-color: var(--color-primary-0);
 }
 
 @media screen and (max-width: 600px) {
